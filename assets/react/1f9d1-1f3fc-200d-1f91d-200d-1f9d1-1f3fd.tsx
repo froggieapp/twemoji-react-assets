@@ -1,5 +1,5 @@
-import { h } from "preact";
-import type { SVGProps } from "preact/compat";
+import * as React from "react";
+import type { SVGProps } from "react";
 const Svg1F9D11F3Fc200D1F91D200D1F9D11F3Fd = (
   props: SVGProps<SVGSVGElement>
 ) => (

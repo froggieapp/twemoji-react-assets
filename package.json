@@ -22,7 +22,7 @@
     "deploy": "./scripts/deploy.sh gh-pages",
     "test": "phantomjs ./src/test/testrunner.js",
     "prepublishOnly": "run-s build test deploy",
-    "svgr": "svgr --out-dir assets/react ./assets/svg --typescript --jsx-runtime classic-preact --index-template index-template.js --filename-case kebab --icon"
+    "svgr": "svgr --out-dir assets/react ./assets/svg --typescript --index-template index-template.js --filename-case kebab --icon"
   },
   "dependencies": {
     "@svgr/cli": "^8.1.0",
@@ -33,5 +33,9 @@
   },
   "files": [
     "assets/react/*"
-  ]
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
 }
