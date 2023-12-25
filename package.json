@@ -3,40 +3,30 @@
   "name": "twemoji-react-assets",
   "description": "A Unicode standard based way to implement emoji across all platforms.",
   "homepage": "https://github.com/twitter/twemoji",
-  "main": "./assets/react/index.ts",
-  "keywords": [
-    "emoji",
-    "DOM",
-    "parser",
-    "images",
-    "retina",
-    "Twitter",
-    "unicode"
-  ],
+  "main": "./assets/react/index.js",
+  "types": "./assets/react/index.d.ts",
   "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
     "npm-run-all": "^4.1.5",
     "phantomjs-prebuilt": "^2.1.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
     "uglify-js": "2.6.2"
   },
   "scripts": {
-    "build": "./scripts/build.js",
+    "build": "tsc",
     "deploy": "./scripts/deploy.sh gh-pages",
     "test": "phantomjs ./src/test/testrunner.js",
     "prepublishOnly": "run-s build test deploy",
     "svgr": "svgr --out-dir assets/react ./assets/svg --typescript --index-template index-template.js --filename-case kebab --icon"
   },
   "dependencies": {
-    "@svgr/cli": "^8.1.0",
-    "fs-extra": "^8.0.1",
-    "jsonfile": "^5.0.0",
-    "twemoji-parser": "14.0.0",
-    "universalify": "^0.1.2"
+    "@svgr/cli": "^8.1.0"
   },
-  "files": [
-    "assets/react/*"
-  ],
   "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

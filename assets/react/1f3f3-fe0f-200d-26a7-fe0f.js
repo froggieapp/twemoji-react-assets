@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Svg1F3F3Fe0F200D26A7Fe0F = (props) => (_jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 36 36", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "#5BCEFA", d: "M0 27a4 4 0 0 0 4 4h28a4 4 0 0 0 4-4v-1.3H0z" }), _jsx("path", { fill: "#F5A9B8", d: "M.026 20.5 0 25.8h36v-5.3z" }), _jsx("path", { fill: "#EEE", d: "M0 15.3h36v5.3H0z" }), _jsx("path", { fill: "#F5A9B8", d: "M0 9.902h36V15.4H0z" }), _jsx("path", { fill: "#5BCEFA", d: "M36 9a4 4 0 0 0-4-4H4a4 4 0 0 0-4 4v1.2h36z" })] }));
+export default Svg1F3F3Fe0F200D26A7Fe0F;

@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Svg1F315 = (props) => (_jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 36 36", width: "1em", height: "1em", ...props, children: [_jsx("circle", { cx: 18, cy: 18, r: 18, fill: "#FFD983" }), _jsxs("g", { fill: "#FFCC4D", children: [_jsx("circle", { cx: 10.5, cy: 8.5, r: 3.5 }), _jsx("circle", { cx: 20, cy: 17, r: 3 }), _jsx("circle", { cx: 24.5, cy: 28.5, r: 3.5 }), _jsx("circle", { cx: 22, cy: 5, r: 2 }), _jsx("circle", { cx: 3, cy: 18, r: 1 }), _jsx("circle", { cx: 30, cy: 9, r: 1 }), _jsx("circle", { cx: 15, cy: 31, r: 1 }), _jsx("circle", { cx: 32, cy: 19, r: 2 }), _jsx("circle", { cx: 10, cy: 23, r: 2 })] })] }));
+export default Svg1F315;
