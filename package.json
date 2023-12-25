@@ -1,8 +1,9 @@
 {
-  "version": "14.0.2",
+  "version": "14.0.3",
   "name": "twemoji-react-assets",
   "description": "A Unicode standard based way to implement emoji across all platforms.",
   "homepage": "https://github.com/twitter/twemoji",
+  "main": "./assets/react/index.ts",
   "keywords": [
     "emoji",
     "DOM",
